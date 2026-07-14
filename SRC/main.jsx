@@ -12,12 +12,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <App />
       <Toaster
         position="top-right"
-        reverseOrder={false}
         toastOptions={{
-          duration: 3000,
+          duration: 2500,
           style: {
             borderRadius: "12px",
-            fontSize: "14px",
+            fontFamily: "Inter, sans-serif",
           },
         }}
       />
